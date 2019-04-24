@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="2" parallel="methods" thread-count="3">
+    <test name="Getting Directions using google apis">
+        <classes>
+            <class name="TestRunner"/>
+            <class name="TestRunner2"/>
+        </classes>
+    </test>
+</suite>
